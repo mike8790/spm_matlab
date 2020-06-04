@@ -1,0 +1,60 @@
+%-----------------------------------------------------------------------
+% Job saved on 12-May-2020 15:34:37 by cfg_util (rev $Rev: 7345 $)
+% spm SPM - SPM12 (7771)
+% cfg_basicio BasicIO - Unknown
+%-----------------------------------------------------------------------
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.data.presubphasemag.phase = {'/MRIWork/MRIWork06/nr/michael_longley/field_maps_test/full_SPM/sub-CC110033_fmap.nii,1'};
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.data.presubphasemag.magnitude = {'/MRIWork/MRIWork06/nr/michael_longley/field_maps_test/full_SPM/sub-CC110033_run-01_fmap.nii,1'};
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.et = [5.19 7.65];
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.maskbrain = 1;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.blipdir = -1;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.tert = 0.0321303;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.epifm = 0;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.ajm = 0;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.method = 'Mark3D';
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.fwhm = 10;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.pad = 0;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.ws = 1;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.template = {'/home/ugjt015/spm12/toolbox/FieldMap/T1.nii'};
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.fwhm = 5;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.nerode = 2;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.ndilate = 4;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.thresh = 0.5;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.reg = 0.02;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.session.epi = {'/MRIWork/MRIWork06/nr/michael_longley/field_maps_test/full_SPM/sub-CC110033_epi_rest.nii,1'};
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.matchvdm = 0;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.sessname = 'session';
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.writeunwarped = 0;
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.anat = '';
+matlabbatch{1}.spm.tools.fieldmap.calculatevdm.subj.matchanat = 0;
+matlabbatch{2}.spm.spatial.realignunwarp.data.scans = {'/MRIWork/MRIWork06/nr/michael_longley/field_maps_test/full_SPM/sub-CC110033_epi_rest.nii,1'};
+matlabbatch{2}.spm.spatial.realignunwarp.data.pmscan(1) = cfg_dep('Calculate VDM: Voxel displacement map (Subj 1, Session 1)', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{1}, '.','vdmfile', '{}',{1}));
+matlabbatch{2}.spm.spatial.realignunwarp.eoptions.quality = 0.9;
+matlabbatch{2}.spm.spatial.realignunwarp.eoptions.sep = 4;
+matlabbatch{2}.spm.spatial.realignunwarp.eoptions.fwhm = 5;
+matlabbatch{2}.spm.spatial.realignunwarp.eoptions.rtm = 0;
+matlabbatch{2}.spm.spatial.realignunwarp.eoptions.einterp = 2;
+matlabbatch{2}.spm.spatial.realignunwarp.eoptions.ewrap = [0 0 0];
+matlabbatch{2}.spm.spatial.realignunwarp.eoptions.weight = '';
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.basfcn = [12 12];
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.regorder = 1;
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.lambda = 100000;
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.jm = 0;
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.fot = [4 5];
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.sot = [];
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.uwfwhm = 4;
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.rem = 1;
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.noi = 5;
+matlabbatch{2}.spm.spatial.realignunwarp.uweoptions.expround = 'Average';
+matlabbatch{2}.spm.spatial.realignunwarp.uwroptions.uwwhich = [2 1];
+matlabbatch{2}.spm.spatial.realignunwarp.uwroptions.rinterp = 4;
+matlabbatch{2}.spm.spatial.realignunwarp.uwroptions.wrap = [0 0 0];
+matlabbatch{2}.spm.spatial.realignunwarp.uwroptions.mask = 1;
+matlabbatch{2}.spm.spatial.realignunwarp.uwroptions.prefix = 'u';
+matlabbatch{3}.spm.spatial.coreg.estimate.ref = {'/MRIWork/MRIWork06/nr/michael_longley/field_maps_test/full_SPM/sub-CC110033_T1w.nii,1'};
+matlabbatch{3}.spm.spatial.coreg.estimate.source(1) = cfg_dep('Realign & Unwarp: Unwarped Mean Image', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','meanuwr'));
+matlabbatch{3}.spm.spatial.coreg.estimate.other(1) = cfg_dep('Realign & Unwarp: Unwarped Images (Sess 1)', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','uwrfiles'));
+matlabbatch{3}.spm.spatial.coreg.estimate.eoptions.cost_fun = 'nmi';
+matlabbatch{3}.spm.spatial.coreg.estimate.eoptions.sep = [4 2];
+matlabbatch{3}.spm.spatial.coreg.estimate.eoptions.tol = [0.02 0.02 0.02 0.001 0.001 0.001 0.01 0.01 0.01 0.001 0.001 0.001];
+matlabbatch{3}.spm.spatial.coreg.estimate.eoptions.fwhm = [7 7];
