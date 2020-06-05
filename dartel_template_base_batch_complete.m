@@ -2,10 +2,6 @@
 % Run Dartel (create Templates): Images - cfg_files
 % Run Dartel (create Templates): Images - cfg_files
 
-clear all
-
-% set path
-addpath /home/ugjt015/spm12
 
 cd '/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/'
 rc1_list = importdata('rc1list.txt');
